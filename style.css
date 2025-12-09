@@ -69,10 +69,11 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 155vh;
+    height: 175vh;
     align-items: center;
     width: 100%;
     color: white;
+    background-size: 100% 100%;
 }
 
 .hero-image {
@@ -93,7 +94,7 @@
     flex-direction: column;
     gap: 40px;
     position: absolute;
-    top: 250px;
+    top: 10%;
     left: 50px;
 }
 
@@ -117,8 +118,8 @@
 }
 
 .heading-para h2 {
-    font-size: 80px;
-    width: 90%;
+    font-size: 60px;
+    width: 80%;
     text-align: center;
 }
 
@@ -148,7 +149,11 @@
 
 .hero-image-video {
     position: absolute;
-    bottom: 0px;
-    left: 250px;
-    margin-bottom: 30px;
+    bottom: 0%;
+    left: 170px;
+    background-size: 100% 100%;
+}
+
+.hero-image-video img {
+    background-size: 100% 100%;
 }
